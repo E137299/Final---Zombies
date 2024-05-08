@@ -1,4 +1,4 @@
-from import import *
+from turtle import *
 from random import randint, choice
 
 #### CLASS AND FUNCTION DEFINITIONS #####
