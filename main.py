@@ -25,6 +25,9 @@ Constructor( def __init__(self)):
 - will take in a color for the player
 - will take in keys to turn left, turn right and shoot bullets.
 - player will have an attribute that is a list that stores bullets
+
+move(self):
+- moves object forward five pixels
 '''
 class Player(Turtle):
 	pass
