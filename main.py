@@ -16,9 +16,24 @@ def playing_area():
 		t.right(90)
 	t.end_fill()
 
+'''
+Player() Class
+
+Constructor( def __init__(self)):
+- player should be shaped like a turtle.
+- will take in the x and y coordinates for where the player will initially appear.
+- will take in a color for the player
+- will take in keys to turn left, turn right and shoot bullets.
+- player will have an attribute that is a list that stores bullets
+'''
+class Player(Turtle):
+	pass
 
 #### DRIVER CODE ####
 screen = Screen()
 screen.bgcolor("black")
 
 playing_area()
+
+
+screen.mainloop()
